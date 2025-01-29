@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+.popular-toys-container {
+    width: 100%;
+    overflow: hidden;
+    margin-block: 50px;
+}
+
+
+
+.popular-toys-header {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+.popular-toys-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1500px;
+
+}
+
+
+
+.popular-toys-wrapper img {
+    width: 210px;
+    object-fit: contain;
+}
+
+
+
+
+.popular-link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+
+
+.popular-toys-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top:-310px
+}
+
+
+
+.popular-toys-header {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    color:aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+.popular-toys-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    gap:30px
+
+}
+
+
+
+.popular-toys-wrapper img {
+    width: 110px;
+    object-fit: contain;
+}
+
+
+
+
+.popular-link {
+    text-decoration: none;
+}
+
+
+
+
+
+}

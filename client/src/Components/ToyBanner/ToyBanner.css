@@ -1,0 +1,115 @@
+
+
+
+
+
+
+
+
+.toy-banner-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .toy-banner-container.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .toy-banner-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centers the images in the container */
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .toy-banner-container.in-view .toy-banner-wrapper {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .toy-banner-wrapper img {
+    width: 50%; /* Each image takes up half the screen width */
+    height: 100%; /* Image height matches the container */
+    object-fit: cover; /* Ensures the images cover their respective spaces */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .toy-banner-container.in-view .toy-banner-wrapper img {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+
+
+  
+  @media screen and (max-width: 768px) {
+   
+
+.toy-banner-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  position: relative;
+  top:-110px
+}
+
+.toy-banner-container.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toy-banner-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Centers the images in the container */
+  align-items: center;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.toy-banner-container.in-view .toy-banner-wrapper {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.toy-banner-wrapper img {
+  width: 50%; /* Each image takes up half the screen width */
+  height: 40%; /* Image height matches the container */
+  object-fit: cover; /* Ensures the images cover their respective spaces */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.toy-banner-container.in-view .toy-banner-wrapper img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+    
+
+
+  }

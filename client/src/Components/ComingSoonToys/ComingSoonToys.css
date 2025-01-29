@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+.coming-toys-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+
+}
+
+
+.coming-toys-header-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1500px;
+    color:salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+.coming-toys-wrapper img {
+    width: 210px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.coming-toys-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1500px;
+}
+
+
+.coming-link {
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+
+.coming-toys-header-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1500px;
+    color:salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+.coming-toys-wrapper img {
+    width: 110px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.coming-toys-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+}
+
+
+.coming-link {
+    text-decoration: none;
+
+}
+
+
+}

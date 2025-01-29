@@ -1,0 +1,165 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Twinkle+Star&display=swap');
+
+
+.navbar-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  z-index: 99;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.navbar-wrapper img {
+  width: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar-wrapper h3 {
+  font-size: 3rem;
+  font-family: "Twinkle Star", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-wrapper-right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.navbar-wrapper-right-side img {
+  width: 23px;
+  object-fit: contain;
+}
+
+
+
+
+.login-tooltip  {
+  margin: 0 auto;
+  width: 80px;
+  background-color:black;
+  color:white;
+  font-size: 0.8rem;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 3s display linear;
+  position: absolute;
+  top:90px;
+  right: 190px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.login-header {
+  text-decoration: none;
+}
+
+
+
+.cart-count {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 18px;
+  border-radius:20px;
+  font-size: 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:white;
+  background:red;
+  position: relative;
+  top:-18px;
+  left: -45px;
+}
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.navbar-wrapper img {
+  width: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar-wrapper h3 {
+  font-size: 1.9rem;
+  font-family: "Twinkle Star", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-wrapper-right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 23px;
+}
+
+.navbar-wrapper-right-side img {
+  width: 18px;
+  object-fit: contain;
+}
+
+
+.login-header h3 {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+
+
+.cart-count {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 18px;
+  border-radius:20px;
+  font-size: 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:white;
+  background:red;
+  position: relative;
+  top:-13px;
+  left: -45px;
+}
+
+
+
+
+}

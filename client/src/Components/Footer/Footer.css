@@ -1,0 +1,64 @@
+
+
+
+
+
+
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background: slategray;
+    opacity: 0.6;
+   
+}
+
+
+
+.footer-wrapper-four {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background: slategray;
+    opacity: 0.6;
+   
+}
+
+
+
+.footer-wrapper-four {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+}
+
+
+}

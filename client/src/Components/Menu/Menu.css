@@ -1,0 +1,159 @@
+
+
+
+
+.navbar-menu-container {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Hidden off-screen initially */
+    width: 30%;
+    height: 100vh;
+    background-color: wheat;
+    z-index: 1000;
+    display: block;
+    transition: left 0.5s ease-in-out; /* Smooth slide-in transition */
+  }
+  
+  /* Slide-in effect when the menu is open */
+  .navbar-menu-container.open {
+    left: 0; /* Move to the screen */
+  }
+  
+  /* Close button style */
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .close-btn button {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+  }
+
+
+  .close-btn button:hover {
+    color:red
+  }
+  
+  /* Menu content */
+  .navbar-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    position: relative;
+    top:90px
+  }
+  
+  /* Links in the menu */
+  .navbar-menu-wrapper .navbar-link {
+    font-size: 1.3rem;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+   .navbar-link:hover{
+    color:purple
+  }
+  
+  /* Social media icons */
+  .navbar-menu-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .navbar-menu-icon-wrapper img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width:420px) {
+
+    .navbar-menu-container {
+      position: fixed;
+      top: 0;
+      left: -100%; /* Hidden off-screen initially */
+      width: 45%;
+      height: 100vh;
+      background-color: wheat;
+      z-index: 1000;
+      display: block;
+      transition: left 0.5s ease-in-out; /* Smooth slide-in transition */
+    }
+
+
+    .close-btn button {
+      border: none;
+      outline: none;
+      color: black;
+      font-size: 1rem;
+      background: none;
+      cursor: pointer;
+    }
+
+      /* Menu content */
+  .navbar-menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 30px;
+    position: relative;
+    top:40px
+  }
+
+  /* Links in the menu */
+  .navbar-menu-wrapper .navbar-link {
+    font-size: 1rem;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
+
+
+  /* Social media icons */
+  .navbar-menu-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    top:-25px
+  }
+  
+  .navbar-menu-icon-wrapper img {
+    width: 24px;
+    height: 50px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
+
+
+
+
+  }

@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+.toy-cart-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.toy-cart-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+
+
+
+
+
+
+
+.toy-cart-wrapper-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1500px;
+
+
+
+
+}
+
+
+
+
+
+.toy-cart-wrapper-two img {
+    width: 60px;
+    object-fit: contain;
+}
+
+
+
+.toy-cart-wrapper-two p {
+    font-size: 0.8rem;
+    width: 45px;
+}
+
+
+.toy-cart-wrapper-two .price {
+    position: relative;
+    top:0px;
+    left: -15px;
+}
+
+
+
+.toy-cart-wrapper-two .price-two {
+    position: relative;
+    top:0px;
+    left: -25px;
+}
+
+
+
+.toy-cart-wrapper-two .remove {
+    position: relative;
+    top:0px;
+    left: -25px;
+    cursor: pointer;
+    color:red;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.toy-cart-wrapper-two button {
+    border:1px solid lightgray;
+    padding:0.8em 2em;
+    position: relative;
+    top:0px;
+    left: -30px;
+}
+
+
+
+
+
+
+.toy-cart-wrapper-three {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 2000px;
+
+}
+
+
+
+.subtotal {
+    display: flex;
+    align-items: center;
+    gap:345px;
+    margin: 0 auto;
+}
+
+
+.ship {
+    display: flex;
+    align-items: center;
+    gap:320px;
+    margin: 0 auto;
+}
+
+
+
+.total {
+    display: flex;
+    align-items: center;
+    gap:370px;
+    margin: 0 auto;
+}
+
+
+
+.button button {
+    background:darkgreen;
+    padding:1em;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+
+.button button:hover {
+    background:lightblue
+}
+
+
+
+
+
+.button-sub {
+    background:red;
+    padding:2em;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+
+.button-sub:hover {
+    background:lightblue
+}
+
+
+.toy-cart-wrapper-three input {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0.5em;
+
+}

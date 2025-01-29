@@ -1,0 +1,49 @@
+
+
+
+
+
+
+.header-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: darkgreen;
+    padding: 1.4em;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    color: wheat;
+    font-size: 1rem;
+    margin:0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+    .header-container {
+        width: 100%;
+        overflow: hidden;
+        background-color: darkgreen;
+        padding: 1em;
+    }
+    
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        color: wheat;
+        font-size: 0.7rem;
+        margin:0 auto;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}

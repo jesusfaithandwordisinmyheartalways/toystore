@@ -1,0 +1,80 @@
+
+
+
+
+
+
+.home-toy-display-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.home-toy-display-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1500px;
+    gap:155px
+}
+
+
+
+.home-toy-display-wrapper img {
+    width: 310px;
+    object-fit: contain;
+}
+
+
+.toy-link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    .home-toy-display-container {
+        width: 100%;
+        overflow: hidden;
+     
+    }
+    
+    
+    .home-toy-display-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1000px;
+        gap:15px;
+
+       
+    }
+    
+    
+    
+    .home-toy-display-wrapper img {
+        width: 90px;
+        object-fit: contain;
+    }
+    
+    
+    .toy-link {
+        text-decoration: none;
+    }
+    
+    
+}

@@ -1,0 +1,162 @@
+
+
+
+
+
+.about-us-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    margin-top: -90px;
+  }
+  
+
+
+  .about-us-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1500px;
+  }
+  
+  .wrap {
+    position: relative;
+    padding: 20px;
+  }
+  
+  /* Animation trigger when the 'active' class is added */
+  .wrap.active .box {
+    animation: appear 1s cubic-bezier(0.77, 0.33, 1, 0.72) 1;
+  }
+  
+  .box {
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background: white;
+    border: 2px solid black;
+    height: 300px;
+    transform-origin: 100% 50%;
+    overflow: hidden;
+  }
+  
+  .box img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: scale3d(9, 1, 1) translateX(-10vw);
+      box-shadow: var(--bigShadow);
+    }
+    40% {
+      box-shadow: none;
+      transform: scale3d(1, 1, 1) translateX(0);
+    }
+    45% {
+      opacity: 1;
+      transform: scale3d(0.35, 1.8, 1);
+    }
+    75% {
+      box-shadow: none;
+      transform: scale3d(0.35, 1.8, 1);
+    }
+    80% {
+      box-shadow: var(--shadow);
+      transform: scale3d(1.1, 1, 1);
+    }
+    85% {
+      transform: scale3d(1.4, 1, 1);
+    }
+    100% {
+      /* Final state: No transformation or shadow */
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+      box-shadow: none;
+    }
+  }
+  
+  :root {
+    --shadowSize: 25px;
+    --shadow: var(--shadowSize) var(--shadowSize) 0 2px rgba(255, 0, 0, 0.3),
+      calc(var(--shadowSize) * -1) calc(var(--shadowSize) * -1) 0 2px rgba(0, 255, 0, 0.33);
+    --bigShadow: calc(var(--shadowSize) * 2) calc(var(--shadowSize) * 2) 0 2px
+        rgba(255, 0, 0, 0.5),
+      calc((var(--shadowSize) * 2) * -1) calc((var(--shadowSize) * 2) * -1) 0 2px
+        rgba(0, 255, 0, 0.5);
+  }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:420px) {
+
+
+.about-us-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background: white;
+  margin-top: -90px;
+}
+
+
+
+.about-us-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  position: relative;
+  
+}
+
+/* Animation trigger when the 'active' class is added */
+.wrap.active .box {
+  animation: appear 1s cubic-bezier(0.77, 0.33, 1, 0.72) 1;
+}
+
+.box {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  background: white;
+  border: 2px solid black;
+  height: 230px;
+  transform-origin: 100% 50%;
+  overflow: hidden;
+  
+}
+
+
+
+.box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+  }

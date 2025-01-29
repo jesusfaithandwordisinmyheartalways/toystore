@@ -1,0 +1,180 @@
+
+
+
+
+
+
+
+
+
+
+.toy-category-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.toy-category-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+.toy-category-wrapper span {
+    color:black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.toy-category-image-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    animation-name: marioToyCategory;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes marioToyCategory {
+    from {transform: rotateY(0deg)}
+    to{transform:rotateY(180deg)}
+}
+
+
+
+.toy-category-image-wrapper img {
+    width: 510px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+.toy-category-container-two {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.toy-category-components-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+
+
+.toy-category-components-wrapper img {
+    width: 310px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+
+
+    .toy-category-container {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    
+    
+    .toy-category-wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        margin:0 auto;
+    }
+    
+    
+    .toy-category-wrapper span {
+        color:black;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    
+    .toy-category-image-wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1500px;
+        animation-name: marioToyCategory;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-direction: alternate;
+    
+    }
+    
+    
+    @keyframes marioToyCategory {
+        from {transform: rotateY(0deg)}
+        to{transform:rotateY(180deg)}
+    }
+    
+    
+    
+    .toy-category-image-wrapper img {
+        width: 110px;
+        object-fit: contain;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .toy-category-container-two {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    
+    .toy-category-components-wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .toy-category-components-wrapper img {
+        width: 110px;
+        object-fit: contain;
+    }
+
+
+}

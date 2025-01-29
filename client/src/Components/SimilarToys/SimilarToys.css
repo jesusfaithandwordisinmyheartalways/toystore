@@ -1,0 +1,44 @@
+
+
+
+
+
+
+.toy-related-product-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+
+.toy-similar-product-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+
+}
+
+
+
+
+.toy-similar-display-wrapper {
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+
+
+
+
+
+.toy-similar-display-wrapper img {
+    width: 190px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
